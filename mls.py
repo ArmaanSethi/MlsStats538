@@ -2,10 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 
 def which_team(team_name):
+    """Alexa Stuff...utterances and stuff """
     team_name = int(team_name)
     return teams[team_name]
 
 def which_stat(stat_name):
+    """Alexa Stuff...utterances and stuff """
+
     #record              | Num points
     #num rating offense
     #num rating defence
